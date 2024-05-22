@@ -118,7 +118,7 @@ async function updateTask() {
                 name: "remainingTask",
                 type: "list",
                 message: chalk.greenBright.bold("Please Select One of given option:"),
-                choices: ["Add More Taskz", "Read Task", "Delete Task", "Exit Application"]
+                choices: ["Add More Tasks", "Read Task", "Delete Task", "Exit Application"]
             }
         ]);
         if (remainingTask === "Add More Tasks") {
