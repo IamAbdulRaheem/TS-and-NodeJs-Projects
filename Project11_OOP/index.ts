@@ -22,14 +22,13 @@ get _personality(){
 }
 
 class Main{
-    public async main(){
-        const answers= await inquirer.prompt(
+   async main(){
+        const answers= await inquirer.prompt([
             {
                 name:"choice",
                 type:"list",
-                message:"Tell about your behaviour",
-                choices:[""]
+                message:"Tell about yourself",
             }
-        )
+        ])
     }
 }
